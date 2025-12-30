@@ -1,0 +1,52 @@
+body {
+    background-color: pink;
+  padding-top: 70px;
+}
+
+section {
+  min-height: 70vh;
+}
+.skill-box {
+  border: 2px solid pink; /* blue border */
+  border-radius: 10px;
+  background-color: #f0f8ff; /* light-blue background */
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+  background-color: #e0f0ff;
+  cursor: pointer;
+}
+.contact-box {
+  border: 2px solid pink;   /* green border */
+  border-radius: 12px;
+  padding: 15px;
+  background-color: #f9fff9;
+  font-weight: 500;
+  transition: transform 0.3s;
+}
+
+.contact-box:hover {
+  transform: scale(1.03);
+}
+
+.contact-box a {
+  text-decoration: none;
+  color: #007bff;
+}
+.project-box {
+  border: 2px solid #ff9800;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #fff8f0;
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.project-box:hover {
+  transform: translateY(-8px);
+}
+
+
